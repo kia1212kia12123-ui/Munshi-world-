@@ -1,0 +1,8 @@
+{
+  "name": "MUNSI WORLD — Amazon Style Garments & Global Commerce",
+  "description": "Amazon-style global garment e-commerce platform for MUNSI WORLD featuring Prime delivery, secure payment gateways, inventory management, automated shipping tracking, seasonal analytics, and customer/seller portals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

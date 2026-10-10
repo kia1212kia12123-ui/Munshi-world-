@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #0F1111;
+    background-color: #EAEDED;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Amazon standard link colors */
+a, .amazon-link {
+  color: #007185;
+}
+a:hover, .amazon-link:hover {
+  color: #C7511F;
+}
+
+/* Amazon button styles */
+.btn-amazon-primary {
+  background-color: #FFD814;
+  border: 1px solid #FCD200;
+  border-radius: 9999px;
+  color: #0F1111;
+  font-weight: 500;
+  transition: background-color 0.15s ease-in-out;
+}
+.btn-amazon-primary:hover {
+  background-color: #F7CA00;
+  border-color: #F2C200;
+}
+
+.btn-amazon-secondary {
+  background-color: #FFA41C;
+  border: 1px solid #FF8F00;
+  border-radius: 9999px;
+  color: #0F1111;
+  font-weight: 500;
+  transition: background-color 0.15s ease-in-out;
+}
+.btn-amazon-secondary:hover {
+  background-color: #FA8900;
+}
+
+.btn-amazon-white {
+  background-color: #FFFFFF;
+  border: 1px solid #D5D9D9;
+  border-radius: 8px;
+  color: #0F1111;
+  transition: all 0.15s ease-in-out;
+}
+.btn-amazon-white:hover {
+  background-color: #F7FAFA;
+  border-color: #D5D9D9;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #d4d4d8;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a1a1aa;
+}
